@@ -3,3 +3,8 @@
 @import "about";
 @import "card";
 @import "team";
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
