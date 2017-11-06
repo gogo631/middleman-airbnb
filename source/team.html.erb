@@ -1,0 +1,19 @@
+---
+title: Le Wagon - Middleman - Team
+---
+<h1>
+  This template is built with
+  <i class="fa fa-heart"></i>
+</h1>
+<ul class="list-inline">
+  <% ["AdamJosephKalimi", "gogo631"].each do |gh_username| %>
+  <li>
+  <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+    <h3><%= gh_username.capitalize %></h3>
+    <a href=<%= "http://github.com/#{gh_username}" %>>
+      <i class="fa fa-github"></i>
+      <p><%= gh_username %>
+    </a>
+  <% end %>
+  </li>
+</ul>

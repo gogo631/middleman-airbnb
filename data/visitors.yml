@@ -1,0 +1,6 @@
+client:
+  welcome: "I am a client."
+  book: "Book a design and wear it forever."
+artist:
+  welcome: "I am a Tattoo artist."
+  book: "Book a studio and start to work."

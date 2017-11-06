@@ -1,15 +1,51 @@
 ---
 title: Le Wagon - Middleman
 ---
-
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<% data.visitors.each do |visitor, info| %>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= randomized_background_image %>); background-position: center;">
+  <div class="banner-content">
+    <div class="row">
+        <div class="col-xs-12">
+          <h1><%= info.welcome %></h1>
+          <p><%= info.book %></p>
+        </div>
+        <form action="#" class="form-inline">
+          <input type="text" class="form-control input-lg" placeholder="Where?">
+          <input type="text" class="form-control input-lg" placeholder="When?">
+            <select name id class="form-control input-lg">
+              <option value="1">1 client</option>
+              <option value="2">2 clients</option>
+              <option valur="3">3 clients</option>
+            </select>
+          <input type="submit" class="btn btn-primary btn-lg" value="Search">
+        </form>
+    </div>
   </div>
+</div>
+<% end %>
+
+<br>
+<h1 class="text-center">HERE WE GO</h1>
+    The time is now <%= Time.now %>
+<br>
+<div class="container">
+  <div class="row">
+  <% ["papillard", "ssaunier", "monsieurpaillard"].each do |gh_username| %>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+           <h3><%= gh_username.capitalize %></h3>
+          <p>Very cool city, the best</p>
+        </div>
+         <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle card-user" %>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+  <% end %>
+
+  </div>
+</div>
+
 </div>

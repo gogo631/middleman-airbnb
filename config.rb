@@ -1,3 +1,6 @@
+require "lib/custom_helpers"
+helpers CustomHelpers
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
