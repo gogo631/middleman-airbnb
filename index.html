@@ -7,15 +7,17 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-b065d7bc.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
+    <link href="stylesheets/application-2d3c0c52.css" rel="stylesheet" />
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <script src="javascripts/application-d67d2be4.js"></script>
+    <script src="javascripts/jquery.tagsinput-a730971f.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.tagsinput-8a6ae10b.css" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/gogologo.png" alt="logo">
+    <img src="images/logo-8afc64a5.png" alt="logo">
   </a>
 
   <!-- Right Navigation -->
@@ -25,7 +27,7 @@
     <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
     <a href="team.html" class="navbar-wagon-item navbar-wagon-link">Meet the team</a>
-
+    <a href="home.html" class="navbar-wagon-item navbar-wagon-link">View the home</a>
 
 
     <!-- Profile picture with dropdown list -->
@@ -54,94 +56,137 @@
   </div>
 </div>
 
-    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ecbe4658451835.59fc9745c2976.jpg); background-position: center;">
+    <div class="main-container">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ecbe4658451835.59fc9745c2976.jpg); background-position: no-repeat; padding: 6.2em; ">
   <div class="banner-content">
     <div class="row">
         <div class="col-xs-12">
           <h1>I am a client.</h1>
           <p>Book a design and wear it forever.</p>
         </div>
-        <form action="#" class="form-inline">
-          <input type="text" class="form-control input-lg" placeholder="Where?">
-          <input type="text" class="form-control input-lg" placeholder="When?">
-            <select name id class="form-control input-lg">
-              <option value="1">1 client</option>
-              <option value="2">2 clients</option>
-              <option valur="3">3 clients</option>
-            </select>
-          <input type="submit" class="btn btn-primary btn-lg" value="Search">
-        </form>
+        <div class="input-tags">
+          <input name="tags" id="tags" value="cat,rose,black and grey" />
+          <br>
+          <input type="submit" class="btn btn-primary btn-lg" value="Submit">
+        </div>
     </div>
+
   </div>
 </div>
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/38528c58451835.59fc9745c23fe.jpg); background-position: center;">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/119e5358451835.59fc9745c389e.jpg); background-position: no-repeat; padding: 6.2em; ">
   <div class="banner-content">
     <div class="row">
         <div class="col-xs-12">
           <h1>I am a Tattoo artist.</h1>
           <p>Book a studio and start to work.</p>
         </div>
-        <form action="#" class="form-inline">
-          <input type="text" class="form-control input-lg" placeholder="Where?">
-          <input type="text" class="form-control input-lg" placeholder="When?">
-            <select name id class="form-control input-lg">
-              <option value="1">1 client</option>
-              <option value="2">2 clients</option>
-              <option valur="3">3 clients</option>
-            </select>
-          <input type="submit" class="btn btn-primary btn-lg" value="Search">
-        </form>
+          <form action="#" class="form-inline">
+            <input type="text" class="form-control input-lg" placeholder="Where?">
+            <br>
+            <input type="text" class="form-control input-lg" placeholder="When?">
+            <br>
+            <br>
+              <select name id class="form-control input-lg">
+                <option value="1">1 client</option>
+                <option value="2">2 clients</option>
+                <option valur="3">3 clients</option>
+              </select>
+              <br>
+              <br>
+            <input type="submit" class="btn btn-primary btn-lg" value="Search">
+          </form>
     </div>
+
   </div>
+</div>
 </div>
 
 <br>
+  <div class="col-xs-12 col-sm-4">
+
+          <div class="container">
+            <div class="row">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+
+            <!-- insert <div class="card"> -->
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/119e5358451835.59fc9745c389e.jpg);">
+              <div class="card-category">Popular</div>
+              <div class="card-description">
+                 <h3>Papillard</h3>
+                <p>Very cool city, the best</p>
+              </div>
+               <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="img-circle card-user" alt="Papillard" />
+              <a class="card-link" href="#" ></a>
+            </div>
+          </div>
+      <div class="back">
+        <img src=https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/38528c58451835.59fc9745c23fe.jpg style="width: 390px"/>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="col-xs-12 col-sm-4">
+
+          <div class="container">
+            <div class="row">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+
+            <!-- insert <div class="card"> -->
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2860a358451835.59fc9745c2e54.jpg);">
+              <div class="card-category">Popular</div>
+              <div class="card-description">
+                 <h3>Ssaunier</h3>
+                <p>Very cool city, the best</p>
+              </div>
+               <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle card-user" alt="Ssaunier" />
+              <a class="card-link" href="#" ></a>
+            </div>
+          </div>
+      <div class="back">
+        <img src=https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/119e5358451835.59fc9745c389e.jpg style="width: 390px"/>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="col-xs-12 col-sm-4">
+
+          <div class="container">
+            <div class="row">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+
+            <!-- insert <div class="card"> -->
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ecbe4658451835.59fc9745c2976.jpg);">
+              <div class="card-category">Popular</div>
+              <div class="card-description">
+                 <h3>Monsieurpaillard</h3>
+                <p>Very cool city, the best</p>
+              </div>
+               <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="img-circle card-user" alt="Monsieurpaillard" />
+              <a class="card-link" href="#" ></a>
+            </div>
+          </div>
+      <div class="back">
+        <img src=https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/119e5358451835.59fc9745c389e.jpg style="width: 390px"/>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <h1 class="text-center">HERE WE GO</h1>
-    The time is now 2017-11-06 16:17:39 +0800
+<h2 class="text-center">The time is now 2017-11-06 23:24:43 +0800</h2>
 <br>
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-        <div class="card-category">Popular</div>
-        <div class="card-description">
-           <h3>Papillard</h3>
-          <p>Very cool city, the best</p>
-        </div>
-         <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="img-circle card-user" alt="Papillard" />
-        <a class="card-link" href="#" ></a>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-        <div class="card-category">Popular</div>
-        <div class="card-description">
-           <h3>Ssaunier</h3>
-          <p>Very cool city, the best</p>
-        </div>
-         <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle card-user" alt="Ssaunier" />
-        <a class="card-link" href="#" ></a>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-        <div class="card-category">Popular</div>
-        <div class="card-description">
-           <h3>Monsieurpaillard</h3>
-          <p>Very cool city, the best</p>
-        </div>
-         <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="img-circle card-user" alt="Monsieurpaillard" />
-        <a class="card-link" href="#" ></a>
-      </div>
-    </div>
 
-  </div>
-</div>
-
-</div>
 
     <div class="footer">
   <div class="footer-links">
@@ -152,7 +197,7 @@
     <a href="#"><i class="fa fa-linkedin"></i></a>
   </div>
   <div class="footer-copyright">
-    This footer is made with <i class="fa fa-heart"></i> at Le Wagon
+    ®Gogo.tattoo with <i class="fa fa-heart"></i> at Le Wagon
   </div>
 </div>
 
