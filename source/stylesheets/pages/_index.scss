@@ -7,4 +7,13 @@
 .main-container {
   display: flex;
   justify-content: space-around;
+  position: relative;
+}
+
+@media screen and (min-width:1200px){
+    #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
+}
+
+html {
+  width: 100%;
 }

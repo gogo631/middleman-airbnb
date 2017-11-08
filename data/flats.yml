@@ -1,3 +1,31 @@
+whattocall:
+  name: "Aid tattoo"
+  description: "I love tattoo."
+  city_name: "SP, Russian"
+  city_slug: "russian"
+  wifi: false
+  rating: 4
+whattocall:
+  name: "Aid tattoo"
+  description: "I love tattoo."
+  city_name: "SP, Russian"
+  city_slug: "russian"
+  wifi: false
+  rating: 4
+whattodo:
+  name: "Xizi"
+  description: Small flat in Tokyo
+  city_name: "Paris, France"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
 ssaunier:
   name: "Sebastien's home"
   description: "Charming room in Montmartre"
@@ -12,10 +40,3 @@ papillard:
   city_slug: "tokyo"
   wifi: true
   rating: 3
-monsieurpaillard:
-  name: Romain's home
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  city_slug: "london"
-  wifi: true
-  rating: 5

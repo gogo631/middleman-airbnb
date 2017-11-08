@@ -1,5 +1,10 @@
 #team {
-  background-color: green;
+  margin: 0; padding: 0;
+  p {
+    font: 15px/2 Georgia, Serif;
+    margin: 0 0 30px 0;
+    text-indent: 40px;
+  }
   i {
     color: red;
   }
@@ -14,4 +19,52 @@
   h3 h1 {
     color: light;
   }
+  td {
+    color: #fff;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-transform:uppercase;
+    line-height:38px;
+    letter-spacing:1px;
+    text-align:center;
+    font-weight: 400;
+  }
 }
+
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+#page-wrap { position: relative; width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+
+
+    html{
+        width: 100%;
+    }
+
+    bo{
+      width: 100%;
+      margin:0;
+      padding:0;
+      -webkit-font-smoothing: antialiased;
+      mso-margin-top-alt:0px;
+      mso-margin-bottom-alt:0px;
+      mso-padding-alt: 0px 0px 0px 0px;
+      background: #E7E7E7;
+    }
+
+    p,h1,h2,h3,h4{
+      margin-top:0;
+      margin-bottom:0;
+      padding-top:0;
+      padding-bottom:0;
+    }
+
+    table{
+      font-size: 14px;
+      border: 0;
+    }
+
+    img{
+      border: none!important;
+    }
+
